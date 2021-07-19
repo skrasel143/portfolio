@@ -1,0 +1,92 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.welcome{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+
+h1{
+    font-size: 50px;
+}
+.name{
+    color: orange;
+}
+
+.introduction-area{
+    margin-left: 60px;
+    
+}
+
+.hire-link{
+    text-decoration: none;
+    background-image: linear-gradient(#db22d2, #3230a1);
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 10px;
+}
+
+.half-width{
+    width: 50%;
+    
+}
+.dream-section{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 0px;
+}
+
+img{
+    width: 80%;
+    padding-left: 20px;
+}
+.fb-link{
+    text-decoration: none;
+    background-image: linear-gradient(#2522db, #7aa130);
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 10px;
+}
+.experience-section{
+    display: flex;
+    padding-left: 50px;
+    margin-bottom: 200px;
+}
+.junior{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, red);
+    border-image-slice: 1;
+    border-radius: 15px;
+    padding: 10px 10px 70px 20px;
+    box-shadow: 10px 10px 40px gray;  
+}
+.full-stack{
+    border-left: 5px solid;
+    border-image: linear-gradient(#bbff00, rgb(7, 81, 150));
+    border-image-slice: 1;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray; 
+    margin: 0px 20px 0px 40px;
+}
+#main-footer p{
+    text-align: center;
+    padding: 40px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50px;
+    background-image: linear-gradient(#69a369, #6c5cc7);
+}
+@media( max-width: 600px){
+    .half-width{
+        width: 95%;
+        margin: 0;
+        padding: 0;
+        margin: 2%;
+    }
+}
